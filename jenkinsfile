@@ -1,8 +1,8 @@
-@Library('todoshop') _
+@Library('Todoshop') _
 
 todoshop (
-        COMPONENT             : 'todo',
-        PROJECT_NAME          : "todoshop",
+        COMPONENT             : "todo",
+        PROJECT_NAME          : "Todoshop",
         SLAVE_LABEL           : "NODEJS",
         SKIP_NEXUS_UPLOAD     : false,
         APP_TYPE              : "NODEJS"
