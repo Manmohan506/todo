@@ -1,12 +1,10 @@
 [Unit]
-Description = todo Service
+Description=Todo Service
 
 [Service]
-Environment=REDIS_HOST=http://redis-{{ENV}}.zsdevops01.store:8080
-Environment=TODOS_API_PORT=8080
+Environment=REDIS_HOST=redis-endpoint
 ExecStart=/bin/node /home/ubuntu/todo/server.js
-Restart=on-failure
-SyslogIdentifier=login
+SyslogIdentifier =todo
 
 [Install]
 WantedBy=multi-user.target
