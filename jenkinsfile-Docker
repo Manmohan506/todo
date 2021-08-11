@@ -1,0 +1,7 @@
+@Library('todoshop') _
+
+Docker (
+        COMPONENT             : 'todo',
+        PROJECT_NAME          : "todoshop",
+        SLAVE_LABEL           : "DOCKER",
+)
